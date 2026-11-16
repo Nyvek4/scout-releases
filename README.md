@@ -28,21 +28,22 @@ Captures prises en simulation, sans robot.
 
 ## Télécharger
 
-Dernière version : [page Releases](https://github.com/Nyvek4/scout-releases/releases/latest).
+**Scout 2.0.0-rc.3 — préversion macOS Apple Silicon**, signée par thecamp et notarisée par Apple.
 
-- `Scout-macos-arm64-<sha7>.zip` : macOS 14 ou plus récent, Apple Silicon. Signée Developer ID et notarisée par Apple.
-- `Scout-windows-x64-<sha7>.zip` : Windows 10 ou 11, 64 bits, dossier portable. Non signé.
-- `SHA256SUMS.txt` : empreintes des deux archives.
+- [Télécharger l’application macOS](https://github.com/Nyvek4/scout-releases/releases/download/v2.0.0-rc.3/Scout-macos-arm64-a0474db.zip)
+- [Guide utilisateur rapide](GUIDE-UTILISATEUR.md)
+- [Notes de version, contrôles et limites connues](https://github.com/Nyvek4/scout-releases/releases/tag/v2.0.0-rc.3)
+- [Empreintes SHA-256](https://github.com/Nyvek4/scout-releases/releases/download/v2.0.0-rc.3/SHA256SUMS.txt)
 
-## Installer
+macOS 14 ou plus récent, Mac Apple Silicon. Quittez Scout, dézippez puis copiez Scout.app dans Applications.
+Vos réglages et le pilote du robot sont conservés. Saisissez les clés uniquement dans les Réglages de l’application.
 
-- **Mac** : dézipper, glisser `Scout.app` dans Applications, l'ouvrir. Accepter les demandes caméra et micro au premier usage.
-- **Windows** : dézipper **tout** le dossier en local et lancer `Scout.exe` sans le sortir du dossier. SmartScreen avertit au premier lancement : « Informations complémentaires », puis « Exécuter quand même ».
-- **Premier lancement**, robot branché en USB : Scout installe seul le pilote du robot (Internet nécessaire, environ 5 minutes la toute première fois, puis quelques secondes). Aucune autre application ni commande n'est nécessaire.
-- **Clés** : ouvrir « Réglages » et saisir les clés OpenAI (indispensable à la conversation) et ElevenLabs (voix, facultative). Elles sont rangées dans le trousseau du système et ne sont jamais réaffichées.
+## Cette version
 
-## Aide
+La rc.3 renforce l’identité thecamp, pilote The CIRCLE sur une borne externe et anime un Reachy Mini en 3D
+sur les écrans publics. Elle reprend le mode salon, les sons et les corrections de la voix de la rc.2.
 
-Le [wiki](https://github.com/Nyvek4/scout-releases/wiki) détaille l'installation, le premier lancement, la régie, les écrans spectateurs et le dépannage.
+Cette préversion reste à répéter avec votre robot et vos services avant une démonstration : les notes de version
+précisent les essais réalisés et les réserves, notamment la stabilité caméra. Aucun paquet Windows rc.3 n’est fourni.
 
-Ce dépôt distribue les versions de Scout ; le code source n'y est pas publié.
+[Versions précédentes](https://github.com/Nyvek4/scout-releases/releases)
