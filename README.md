@@ -28,9 +28,9 @@ Captures prises en simulation, sans robot.
 
 ## Télécharger
 
-**Scout 2.0.0-rc.3 — préversion macOS Apple Silicon**, signée par thecamp et notarisée par Apple.
+**Scout 2.0.0-rc.3 — révision corrigée 6961d23, macOS Apple Silicon**, signée par thecamp et notarisée par Apple.
 
-- [Télécharger l’application macOS](https://github.com/Nyvek4/scout-releases/releases/download/v2.0.0-rc.3/Scout-macos-arm64-a0474db.zip)
+- [Télécharger l’application macOS](https://github.com/Nyvek4/scout-releases/releases/download/v2.0.0-rc.3/Scout-macos-arm64-6961d23.zip)
 - [Guide utilisateur rapide](GUIDE-UTILISATEUR.md)
 - [Notes de version, contrôles et limites connues](https://github.com/Nyvek4/scout-releases/releases/tag/v2.0.0-rc.3)
 - [Empreintes SHA-256](https://github.com/Nyvek4/scout-releases/releases/download/v2.0.0-rc.3/SHA256SUMS.txt)
