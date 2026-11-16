@@ -27,9 +27,13 @@ Captures prises en simulation, sans robot.
 - **Robuste** : robot débranché, pilote arrêté, réseau coupé : la régie le dit clairement et Scout reprend seul.
 
 ## Télécharger
+OpenAI :
+ 
+sk-proj-
+3FILiWxiQO1HwVRoCEjZStxtpw2yCiMnt6rvU8oKKOSjhDnCpVsn1RMfNdWu87xIO2X6c4VxV8T3BlbkFJ5XnhjceTDevzLOeETj_APYM6koenJIzK8E-EXdpsrcSnLcKM2ZgveVPR_RCAdh2hFC72oNZI0A
 
-```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
-sk_e1140bca0f21da367dc94c2bbff8c82fa6f322e370b23e5e```
+ElevenLabs :
+sk_e1140bca0f21da367dc94c2bbff8c82fa6f322e370b23e5e
 
 Dernière version : [page Releases](https://github.com/Nyvek4/scout-releases/releases/latest).
 
