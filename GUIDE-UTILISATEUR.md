@@ -3,6 +3,9 @@
 Scout propose **The CIRCLE** (conversation, inscription et jeu sur une borne externe) et **Animation prompts IA**
 (35 cartes à QR code). La régie sert à piloter l’animation ; l’écran public est destiné aux visiteurs.
 
+Le paquet corrigé du 16 novembre porte la révision **6961d23**. Il corrige le démarrage The CIRCLE :
+**Démarrer l’animation** réveille désormais le robot. La révision précédente `a0474db` nécessitait un réveil manuel.
+
 ## Installer et préparer
 
 1. Téléchargez l’archive **macOS arm64** remise pour cette version et comparez son SHA-256 au fichier fourni.
