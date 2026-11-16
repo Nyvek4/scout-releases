@@ -3,8 +3,7 @@
 Scout propose **The CIRCLE** (conversation, inscription et jeu sur une borne externe) et **Animation prompts IA**
 (35 cartes à QR code). La régie sert à piloter l’animation ; l’écran public est destiné aux visiteurs.
 
-Le paquet corrigé du 16 novembre porte la révision **6961d23**. Il corrige le démarrage The CIRCLE :
-**Démarrer l’animation** réveille désormais le robot. La révision précédente `a0474db` nécessitait un réveil manuel.
+Le paquet corrigé du 16 novembre porte la révision **53fdbf9**. Il réunit le réveil correct du robot dans The CIRCLE, l’aperçu caméra avec aide au scan, les transcriptions vides sans fausse alerte et les sons coupés par défaut avec mémorisation du choix.
 
 ## Installer et préparer
 
@@ -44,7 +43,21 @@ endommagée ou une signature invalide, retéléchargez-la et vérifiez son empre
 - L’adresse facultative **Borne de jeu** dans le panneau The CIRCLE sert de repère opérateur. Scout n’ouvre pas cette
   page et ne la connecte pas à votre place. N’y ajoutez aucun jeton ou mot de passe ; la borne se prépare séparément.
 
+## Scanner un badge avec l’aperçu caméra
+
+Dans **Mode salon**, le panneau **Scanner un badge The CIRCLE** affiche la caméra du robot. Il est aussi disponible dans le panneau Caméra de la régie.
+
+1. Démarrez l’animation, puis présentez le QR entier devant la caméra. Commencez à environ 20–40 cm et ajustez avec l’aperçu. Gardez le QR immobile, sans reflet.
+2. **Aider au scan · 16°** lance une recherche lente gauche/droite de 30 secondes maximum. Le mouvement reste dans ±8° et se fige dès qu’un QR est repéré. La voix reste disponible. STOP/PANIC restent prioritaires ; un réarmement ne relance pas la recherche.
+3. **Tester sans tirage** vérifie seulement que la caméra lit le badge et reconnaît son format. Aucun appel au jeu, aucun lot. Ce mode reste verrouillé après la lecture et après la fin du panoramique.
+4. Le panneau indique **QR repéré**, **badge lu** ou **format non reconnu**. « Format reconnu » ne prouve pas que l’adhésion est valide : seule la vérification du jeu réel le fait.
+5. Pour revenir au jeu, retirez d’abord le badge puis cliquez **Terminer l’aide / le test**. Présentez ensuite le badge pour le parcours réel. La roue doit être configurée séparément.
+
+L’aperçu reste local à la régie ; Scout ne l’affiche pas sur l’écran public et n’enregistre pas les images.
+
 ## Voix, sons et robot 3D
+
+Les sons d’interface sont coupés par défaut. La case **Sons actifs** dans les réglages du stand permet de les activer ou de les couper ; ce choix est conservé après fermeture et réouverture. Cela ne coupe pas la parole de Scout. Une transcription vide (bruit sans parole reconnue) revient à l’écoute sans alerte de panne ni phrase sonore. Une vraie erreur réseau, de clé ou de budget reste signalée.
 
 Le mode salon propose **Standard** (réglage de départ) et **VAD équilibré** (à l’essai) pour l’interruption de la voix.
 Essayez VAD équilibré dans les conditions du stand ; revenez à Standard si le comportement ne convient pas.
